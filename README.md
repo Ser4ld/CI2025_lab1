@@ -1,6 +1,6 @@
 ## CI2025 — Lab 1: Knapsack with Simulated Annealing
 
-### Why Simulated Annealing (very short)
+### Simulated Annealing
 - The 0/1 knapsack is NP-hard. Exact methods may become expensive on large instances or when extra constraints/variants are added.
 - Simulated Annealing (SA) can escape local optima by occasionally accepting worse moves with a temperature-controlled probability, often reaching high-quality solutions within a reasonable time.
 - It is simple to implement, flexible (easy to add penalties/constraints), and only needs an objective function and a neighborhood.
