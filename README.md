@@ -1,10 +1,5 @@
 ## CI2025 — Lab 1: Knapsack with Simulated Annealing
 
-### Simulated Annealing
-- The 0/1 knapsack is NP-hard. Exact methods may become expensive on large instances or when extra constraints/variants are added.
-- Simulated Annealing (SA) can escape local optima by occasionally accepting worse moves with a temperature-controlled probability, often reaching high-quality solutions within a reasonable time.
-- It is simple to implement, flexible (easy to add penalties/constraints), and only needs an objective function and a neighborhood.
-
 ### Algorithm sketch
 1. Start from a feasible solution (random or greedy).
 2. Propose a neighbor (e.g., flip one item; repair or reject if the capacity is violated).
@@ -22,6 +17,10 @@
 `to_feasible`: Iteratively modify the solution until it becomes feasible
 
 `simulated_annealing_solver`: Simulated Annealing algorithm for searching the optimal solution
+
+### Collaborators
+- Stefano Paoloni (346297)
+- Michelangelo Marconi (342709)
 
 
 
